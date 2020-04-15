@@ -1,0 +1,27 @@
+body{
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+#title {
+  background-color:#db5461;
+}
+.main{
+  background: #db5461;
+}
+
+.jumbotron
+{
+  margin:0;
+  background-color: #912a34 ;
+  color: white;
+}
